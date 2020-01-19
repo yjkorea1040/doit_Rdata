@@ -1,13 +1,9 @@
-Version: 1.0
+# 조건에 맞는 데이터 추출하기
+install.packages("dplyr")
+library(dplyr)
+exam<-read.csv("csv_exam.csv")
+exam
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
-Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+# 패키지 filter()를 이용하여 특정 부류의 필터값만 추출하기
+# class가 1인 행만 추출
+exam %>% filter(class == 1)
