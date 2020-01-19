@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578793812921.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1970636081",
+    "id" : "35FFA806",
+    "lastKnownWriteTime" : 1578819179,
+    "last_content_update" : 1578819179763,
+    "path" : "C:/works/ch03/ch03_1_variable.r",
+    "project_path" : "ch03_1_variable.r",
+    "properties" : {
+        "cursorPosition" : "420,0",
+        "scrollLine" : "398",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
