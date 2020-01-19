@@ -203,6 +203,7 @@ df_excel_mean_math
 df_excel_mean_english
 df_excel_mean_science
 
+# col_names=F -> HEADER를 제외하고 데이터값만 가져올 때
 # excel_exam_novar.xlsx
 df_excel_novar<-read_excel("excel_exam_novar.xlsx")
 df_excel_novar<-read_excel("C:/works/ch04/excel_exam_novar.xlsx", col_names=F)
@@ -210,7 +211,7 @@ df_excel_novar
 
 View(df_excel_novar)
 
-
+# 특정 sheet 불러올 때 sheet=3이면 3번째 sheet
 # excel_exam_sheet.xlsx
 df_excel_sheet<-read_excel("C:/works/ch04/excel_exam_sheet.xlsx", col_names=T,sheet=3)
 df_excel_sheet
@@ -441,3 +442,21 @@ midwest$ratio<-(midwest$asian/midwest$total)*100
 qplot(midwest$ratio)
 hist(midwest$ratio)
 mean(midwest$ratio)
+
+x<-scan()
+10
+20
+30
+
+x<-scan()
+10
+20
+30
+x
+x2<-c(10,20,30)
+x2
+
+
+install.packages("dplyr")
+library(dplyr)
+exam<-
